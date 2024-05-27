@@ -1,0 +1,49 @@
+
+/* media home */
+@media screen and (max-width:988px) {
+    #overlay h5 {
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    .text-changing h1 span {
+        font-size: 1.875rem;
+    }
+
+    .text-changing h1::after {
+
+        font-size: 1.875rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #overlay h5 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    /* start services */
+
+    @media screen and (max-width:988px) {
+        .services .whole-container .box {
+            font-size: 1.875rem;
+            width: 100%;
+        }
+    }
+    
+/* start test  */
+@keyframes activeAnimation {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+/* start team  */
+
+@media screen and (max-width:988px) {
+    .team .boxesContainer {
+        display: flex;
+        flex-direction: column;
+    }
